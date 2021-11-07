@@ -10,7 +10,7 @@ namespace DiceRoller
     {
         Random rand = new Random();
 
-        public static string _Id => "dice-roller";
+        public static string _Id => "dice roller";
         public string Id => _Id;
 
         public PluginOutput Execute(string str, IList<PluginOutput> pluginHistory, ICallbacks callbacks)
